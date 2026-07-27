@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Links
-        modalSpecsBtn.href = product.pdfLink;
+        modalSpecsBtn.href = encodeURI(product.pdfLink);
         // Pre-fill contact form interest area with product name via URL parameters
         modalAskBtn.href = `contact.html?product=${encodeURIComponent(product.name)}`;
 
