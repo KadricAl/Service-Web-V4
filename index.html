@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="robots" content="index, follow">
-    <title>TF Servis | Industrial Laundry Solutions</title>
-    <meta name="description" content="Premium industrial laundry machines, servicing, and spare parts. Specializing in IPSO brand excellence.">
+    <title>TF Servis | Industrijska Oprema za Vešeraje</title>
+    <meta name="description" content="Vrhunska industrijska oprema za vešeraje, servis i originalni rezervni dijelovi. Specijalizovani za IPSO brand.">
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +19,13 @@
         <div class="nav-container">
             <a href="#" class="logo">TF<span>Servis</span></a>
             <ul class="nav-links" id="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="services.html">Services & Parts</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="aboutus.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home" data-i18n="nav.home">Početna</a></li>
+                <li><a href="services.html" data-i18n="nav.services">Usluge i Dijelovi</a></li>
+                <li><a href="products.html" data-i18n="nav.products">Proizvodi</a></li>
+                <li><a href="aboutus.html" data-i18n="nav.about">O Nama</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
             </ul>
+            <div class="lang-switcher-container"></div>
             <div class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -37,11 +38,11 @@
     <header id="home" class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="animate-on-scroll fade-up">Powering Your Laundry Operations</h1>
-            <p class="animate-on-scroll fade-up delay-1">Premium industrial laundry equipment, expert maintenance, and genuine spare parts. Proudly highlighting <strong>IPSO</strong> excellence.</p>
+            <h1 class="animate-on-scroll fade-up" data-i18n="hero.title">Pokrećemo Vaše Vešeraje</h1>
+            <p class="animate-on-scroll fade-up delay-1" data-i18n="hero.subtitle">Vrhunska industrijska oprema za vešeraje, stručno održavanje i originalni rezervni dijelovi. Ponosno ističemo <strong>IPSO</strong> izvrsnost.</p>
             <div class="hero-actions animate-on-scroll fade-up delay-2">
-                <a href="products.html" class="btn btn-primary">Explore Products</a>
-                <a href="contact.html" class="btn btn-secondary">Request Service</a>
+                <a href="products.html" class="btn btn-primary" data-i18n="hero.btnProducts">Istražite Proizvode</a>
+                <a href="contact.html" class="btn btn-secondary" data-i18n="hero.btnService">Zatražite Servis</a>
             </div>
         </div>
     </header>
@@ -50,8 +51,8 @@
     <section id="services" class="services section-padding">
         <div class="container">
             <div class="section-header animate-on-scroll fade-up">
-                <h2 class="subtitle">What We Do</h2>
-                <h3 class="title">Service & Spare Parts</h3>
+                <h2 class="subtitle" data-i18n="services.subtitle">Šta Radimo</h2>
+                <h3 class="title" data-i18n="services.title">Servis i Rezervni Dijelovi</h3>
             </div>
             
             <div class="services-grid">
@@ -62,8 +63,8 @@
                             <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
                         </svg>
                     </div>
-                    <h4>Expert Maintenance</h4>
-                    <p>Routine check-ups and preventative maintenance to keep your operations running smoothly without downtime.</p>
+                    <h4 data-i18n="services.maintTitle">Stručno Održavanje</h4>
+                    <p data-i18n="services.maintDesc">Redovni pregledi i preventivno održavanje kako bi vaše poslovanje radilo besprijekorno i bez neplaniranih zastoja.</p>
                 </div>
 
                 <!-- Service 2 -->
@@ -74,8 +75,8 @@
                             <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
                         </svg>
                     </div>
-                    <h4>Genuine Spare Parts</h4>
-                    <p>High-quality OEM parts, including exclusive IPSO components, ensuring longevity and optimal performance.</p>
+                    <h4 data-i18n="services.partsTitle">Originalni Rezervni Dijelovi</h4>
+                    <p data-i18n="services.partsDesc">Visokokvalitetni OEM dijelovi, uključujući ekskluzivne IPSO komponente, garantuju dugotrajnost i optimalne performanse.</p>
                 </div>
 
                 <!-- Service 3 -->
@@ -85,8 +86,8 @@
                             <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                         </svg>
                     </div>
-                    <h4>Emergency Repair</h4>
-                    <p>Fast-response troubleshooting and repairs to minimize disruption to your business operations.</p>
+                    <h4 data-i18n="services.repairTitle">Hitne Popravke</h4>
+                    <p data-i18n="services.repairDesc">Brza dijagnostika i odziv za popravke kako bismo minimizirali prekide u vašem poslovanju.</p>
                 </div>
             </div>
         </div>
@@ -96,62 +97,62 @@
     <section id="products" class="products section-padding">
         <div class="container">
             <div class="section-header text-center animate-on-scroll fade-up">
-                <h2 class="subtitle">Our Portfolio</h2>
-                <h3 class="title">Industrial Equipment</h3>
-                <p class="description">Discover our range of premium industrial laundry machines built for heavy-duty performance.</p>
+                <h2 class="subtitle" data-i18n="products.subtitle">Naš Portfolio</h2>
+                <h3 class="title" data-i18n="products.title">Industrijska Oprema</h3>
+                <p class="description" data-i18n="products.description">Otkrijte naš asortiman vrhunskih industrijskih mašina za vešeraje napravljenih za najzahtjevnije radne uslove.</p>
             </div>
 
             <div class="products-grid">
                 <!-- Product Category 1 -->
                 <div class="product-card animate-on-scroll fade-up">
                     <div class="card-image">
-                        <img src="images/washing_machine.png" alt="Industrial Washing Machines">
+                        <img src="images/washing_machine.png" alt="Industrijske veš mašine">
                         <div class="image-overlay"></div>
                         <span class="badge">IPSO Featured</span>
                     </div>
                     <div class="card-content">
-                        <h4>Washing Machines</h4>
-                        <p>High-spin, energy-efficient washer extractors designed to tackle the toughest loads.</p>
-                        <a href="contact.html" class="card-link">Inquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        <h4 data-i18n="products.washersTitle">Mašine za Pranje</h4>
+                        <p data-i18n="products.washersDesc">Visoko-centrifugirajuće, energetski efikasne veš mašine dizajnirane za najteža opterećenja.</p>
+                        <a href="contact.html" class="card-link"><span data-i18n="btn.inquire">Pošaljite Upit</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
                     </div>
                 </div>
 
                 <!-- Product Category 2 -->
                 <div class="product-card animate-on-scroll fade-up delay-1">
                     <div class="card-image">
-                        <img src="images/dryer.png" alt="Industrial Dryers">
+                        <img src="images/dryer.png" alt="Industrijske sušilice">
                         <div class="image-overlay"></div>
                     </div>
                     <div class="card-content">
-                        <h4>Industrial Dryers</h4>
-                        <p>High-capacity tumble dryers providing rapid drying times and excellent fabric care.</p>
-                        <a href="contact.html" class="card-link">Inquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        <h4 data-i18n="products.dryersTitle">Industrijske Sušilice</h4>
+                        <p data-i18n="products.dryersDesc">Sušilice velikog kapaciteta koje pružaju brzo sušenje i vrhunsku njegu tkanina.</p>
+                        <a href="contact.html" class="card-link"><span data-i18n="btn.inquire">Pošaljite Upit</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
                     </div>
                 </div>
 
                 <!-- Product Category 3 -->
                 <div class="product-card animate-on-scroll fade-up delay-2">
                     <div class="card-image">
-                        <img src="images/dryer_roller.png" alt="Dryer Rollers / Ironers">
+                        <img src="images/dryer_roller.png" alt="Valjci za peglanje">
                         <div class="image-overlay"></div>
                     </div>
                     <div class="card-content">
-                        <h4>Dryer Rollers</h4>
-                        <p>Precision flatwork ironers ensuring a flawless, crisp finish for all linens.</p>
-                        <a href="contact.html" class="card-link">Inquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        <h4 data-i18n="products.ironersTitle">Valjci za Glačanje</h4>
+                        <p data-i18n="products.ironersDesc">Precizni valjci i glačare koji osiguravaju besprijekornu i glatku obradu posteljine.</p>
+                        <a href="contact.html" class="card-link"><span data-i18n="btn.inquire">Pošaljite Upit</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
                     </div>
                 </div>
 
                 <!-- Product Category 4 -->
                 <div class="product-card animate-on-scroll fade-up">
                     <div class="card-image">
-                        <img src="images/equipment.png" alt="Laundry Equipment">
+                        <img src="images/equipment.png" alt="Oprema za vešeraj">
                         <div class="image-overlay"></div>
                     </div>
                     <div class="card-content">
-                        <h4>General Equipment</h4>
-                        <p>Carts, folding tables, and specialized tools to optimize your laundry workflow.</p>
-                        <a href="contact.html" class="card-link">Inquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        <h4 data-i18n="products.genEquipTitle">Dodatna Oprema</h4>
+                        <p data-i18n="products.genEquipDesc">Kolica, stolovi za slaganje i specijalizirani alati za optimizaciju rada u vešeraju.</p>
+                        <a href="contact.html" class="card-link"><span data-i18n="btn.inquire">Pošaljite Upit</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
                     </div>
                 </div>
             </div>
@@ -163,22 +164,22 @@
         <div class="container">
             <div class="contact-wrapper glass-panel animate-on-scroll fade-up">
                 <div class="contact-info">
-                    <h2 class="subtitle">Get In Touch</h2>
-                    <h3 class="title">Ready to Upgrade?</h3>
-                    <p>Contact TF Servis today for sales inquiries, service requests, or spare parts.</p>
+                    <h2 class="subtitle" data-i18n="contact.subtitle">Stupite u Kontakt</h2>
+                    <h3 class="title" data-i18n="contact.title">Spremni za Unapređenje?</h3>
+                    <p data-i18n="contact.desc">Kontaktirajte TF Servis danas za upite o prodaji, servisu ili rezervnim dijelovima.</p>
                     
                     <ul class="info-list">
                         <li>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                            <span>Phone: [To be added]</span>
+                            <span data-i18n="contact.phoneLabel">Telefon: +387 61 123 456</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                            <span>Email: [To be added]</span>
+                            <span data-i18n="contact.emailLabel">E-mail: info@tfservis.ba</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            <span>Address: [To be added]</span>
+                            <span data-i18n="contact.addressLabel">Adresa: Sarajevo, Bosna i Hercegovina</span>
                         </li>
                     </ul>
                 </div>
@@ -186,24 +187,24 @@
                 <div class="contact-form">
                     <form action="#" method="POST" id="contactForm">
                         <div class="form-group">
-                            <input type="text" id="name" required placeholder="Your Name">
+                            <input type="text" id="name" required placeholder="Vaše Ime" data-i18n-placeholder="form.namePlaceholder">
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" required placeholder="Your Email">
+                            <input type="email" id="email" required placeholder="Vaš E-mail" data-i18n-placeholder="form.emailPlaceholder">
                         </div>
                         <div class="form-group">
                             <select id="interest" required>
-                                <option value="" disabled selected>Area of Interest</option>
-                                <option value="sales">Equipment Sales</option>
-                                <option value="service">Maintenance & Service</option>
-                                <option value="parts">Spare Parts</option>
-                                <option value="other">Other</option>
+                                <option value="" disabled selected data-i18n="form.interestDefault">Oblast Interesovanja</option>
+                                <option value="sales" data-i18n="form.interestSales">Prodaja Opreme (IPSO)</option>
+                                <option value="service" data-i18n="form.interestService">Održavanje i Servis</option>
+                                <option value="parts" data-i18n="form.interestParts">Rezervni Dijelovi</option>
+                                <option value="other" data-i18n="form.interestOther">Ostalo</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                            <textarea id="message" rows="5" required placeholder="Kako vam možemo pomoći?" data-i18n-placeholder="form.messagePlaceholder"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="form.submitBtn">Pošaljite Poruku</button>
                     </form>
                 </div>
             </div>
@@ -216,25 +217,26 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="#" class="logo">TF<span>Servis</span></a>
-                    <p>Premium industrial laundry solutions. Sales, service, and parts.</p>
+                    <p data-i18n="footer.tagline">Vrhunska rješenja za industrijske vešeraje. Prodaja, servis i rezervni dijelovi.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4 data-i18n="footer.quickLinks">Brzi Linkovi</h4>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="services.html">Services & Parts</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#home" data-i18n="nav.home">Početna</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Usluge i Dijelovi</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">Proizvodi</a></li>
+                        <li><a href="aboutus.html" data-i18n="nav.about">O Nama</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 TF Servis. All rights reserved.</p>
+                <p data-i18n="footer.rights">&copy; 2026 TF Servis. Sva prava zadržana.</p>
             </div>
         </div>
     </footer>
 
+    <script src="script/i18n.js"></script>
     <script src="script/main.js"></script>
 </body>
 </html>

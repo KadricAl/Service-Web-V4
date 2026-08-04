@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="robots" content="index, follow">
-    <title>Contact Us | TF Servis</title>
-    <meta name="description" content="Contact TF Servis for industrial laundry machine sales, service, and support.">
+    <title>Kontaktirajte Nas | TF Servis</title>
+    <meta name="description" content="Kontaktirajte TF Servis za prodaju, servis i podršku za industrijske veš mašine.">
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +19,13 @@
         <div class="nav-container">
             <a href="index.html" class="logo">TF<span>Servis</span></a>
             <ul class="nav-links" id="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services & Parts</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="aboutus.html">About</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Početna</a></li>
+                <li><a href="services.html" data-i18n="nav.services">Usluge i Dijelovi</a></li>
+                <li><a href="products.html" data-i18n="nav.products">Proizvodi</a></li>
+                <li><a href="aboutus.html" data-i18n="nav.about">O Nama</a></li>
+                <li><a href="contact.html" class="active" data-i18n="nav.contact">Kontakt</a></li>
             </ul>
+            <div class="lang-switcher-container"></div>
             <div class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -36,8 +37,8 @@
     <!-- Page Header -->
     <header class="page-header header-contact">
         <div class="container">
-            <h1 class="animate-on-scroll fade-up">Contact Us</h1>
-            <p class="animate-on-scroll fade-up delay-1">We are here to support your industrial laundry needs.</p>
+            <h1 class="animate-on-scroll fade-up" data-i18n="contactPage.title">Kontaktirajte Nas</h1>
+            <p class="animate-on-scroll fade-up delay-1" data-i18n="contactPage.desc">Tu smo da podržimo sve vaše potrebe za industrijskim vešerajem.</p>
         </div>
     </header>
 
@@ -46,33 +47,32 @@
         <div class="container">
             <div class="contact-page-wrapper glass-panel animate-on-scroll fade-up delay-2">
                 
-                <!-- Contact Info (Focus on Phone and Map) -->
+                <!-- Contact Info -->
                 <div class="contact-info">
-                    <h2 class="subtitle">Direct Support</h2>
-                    <h3 class="title">Let's Talk</h3>
-                    <p>For immediate assistance, machine service, or spare parts, please call us directly.</p>
+                    <h2 class="subtitle" data-i18n="contactPage.directTitle">Direktna Podrška</h2>
+                    <h3 class="title" data-i18n="contactPage.letsTalk">Razgovarajmo</h3>
+                    <p data-i18n="contactPage.directDesc">Za hitne intervencije, servis mašina ili narudžbu rezervnih dijelova, pozovite nas direktno.</p>
                     
                     <div class="phone-highlight">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                         </svg>
-                        <span>[Add Phone Number]</span>
+                        <span data-i18n="contact.phoneLabel">Telefon: +387 61 123 456</span>
                     </div>
 
                     <ul class="other-info">
                         <li>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                            <span>[Add Email Address]</span>
+                            <span data-i18n="contact.emailLabel">E-mail: info@tfservis.ba</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            <span>[Add Physical Address]</span>
+                            <span data-i18n="contact.addressLabel">Adresa: Sarajevo, Bosna i Hercegovina</span>
                         </li>
                     </ul>
 
                     <!-- Google Maps Embed -->
                     <div class="map-container">
-                        <!-- Replace this src with your actual Google Maps embed link -->
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11516.425121045233!2d18.36881775!3d43.8562586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8c9e05f012b%3A0x6b13e8b0a1d41801!2sSarajevo%2C%20Bosnia%20and%20Herzegovina!5e0!3m2!1sen!2sus!4v1714210000000!5m2!1sen!2sus" 
                             width="100%" 
@@ -87,45 +87,40 @@
 
                 <!-- Web3Forms Contact Form -->
                 <div class="contact-form">
-                    <h3 class="title" style="font-size: 1.75rem; margin-bottom: 2rem;">Send a Message</h3>
+                    <h3 class="title" style="font-size: 1.75rem; margin-bottom: 2rem;" data-i18n="contactPage.sendMessageTitle">Pošaljite Poruku</h3>
                     
                     <form action="https://api.web3forms.com/submit" method="POST">
-                        <!-- Replace with your actual Web3Forms Access Key -->
                         <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE">
-                        
-                        <!-- Honeypot Spam Protection -->
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <div class="form-group">
-                            <input type="text" name="name" required placeholder="Your Name">
+                            <input type="text" name="name" required placeholder="Vaše Ime" data-i18n-placeholder="form.namePlaceholder">
                         </div>
                         
                         <div class="form-group">
-                            <input type="email" name="email" required placeholder="Your Email">
+                            <input type="email" name="email" required placeholder="Vaš E-mail" data-i18n-placeholder="form.emailPlaceholder">
                         </div>
                         
                         <div class="form-group">
-                            <input type="text" name="phone" placeholder="Your Phone Number (Optional)">
+                            <input type="text" name="phone" placeholder="Vaš Broj Telefona (Opcionalno)" data-i18n-placeholder="form.phonePlaceholder">
                         </div>
 
                         <div class="form-group">
                             <select name="interest" required>
-                                <option value="" disabled selected>Area of Interest</option>
-                                <option value="sales">Equipment Sales (IPSO)</option>
-                                <option value="service">Maintenance & Service</option>
-                                <option value="parts">Spare Parts</option>
-                                <option value="other">Other</option>
+                                <option value="" disabled selected data-i18n="form.interestDefault">Oblast Interesovanja</option>
+                                <option value="sales" data-i18n="form.interestSales">Prodaja Opreme (IPSO)</option>
+                                <option value="service" data-i18n="form.interestService">Održavanje i Servis</option>
+                                <option value="parts" data-i18n="form.interestParts">Rezervni Dijelovi</option>
+                                <option value="other" data-i18n="form.interestOther">Ostalo</option>
                             </select>
                         </div>
                         
                         <div class="form-group">
-                            <textarea name="message" rows="6" required placeholder="How can we help you?"></textarea>
+                            <textarea name="message" rows="6" required placeholder="Kako vam možemo pomoći?" data-i18n-placeholder="form.messagePlaceholder"></textarea>
                         </div>
 
-                        <!-- Redirect after success -->
                         <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-                        <button type="submit" class="btn btn-primary btn-block">Submit Form</button>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="form.submitBtn">Pošaljite Poruku</button>
                     </form>
                 </div>
 
@@ -139,25 +134,26 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">TF<span>Servis</span></a>
-                    <p>Premium industrial laundry solutions. Sales, service, and parts.</p>
+                    <p data-i18n="footer.tagline">Vrhunska rješenja za industrijske vešeraje. Prodaja, servis i rezervni dijelovi.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4 data-i18n="footer.quickLinks">Brzi Linkovi</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services & Parts</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html" data-i18n="nav.home">Početna</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Usluge i Dijelovi</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">Proizvodi</a></li>
+                        <li><a href="aboutus.html" data-i18n="nav.about">O Nama</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 TF Servis. All rights reserved.</p>
+                <p data-i18n="footer.rights">&copy; 2026 TF Servis. Sva prava zadržana.</p>
             </div>
         </div>
     </footer>
 
+    <script src="script/i18n.js"></script>
     <script src="script/main.js"></script>
 </body>
 </html>

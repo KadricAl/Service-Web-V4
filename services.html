@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="robots" content="index, follow">
-    <title>Service, Parts & Supplies | TF Servis</title>
-    <meta name="description" content="Expert maintenance, genuine spare parts, and premium laundry supplies from TF Servis.">
+    <title>Servis, Dijelovi i Potrepštine | TF Servis</title>
+    <meta name="description" content="Stručno održavanje, originalni rezervni dijelovi i vrhunske potrepštine za vešeraje od TF Servisa.">
     <link rel="canonical" href="services.html">
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +20,13 @@
         <div class="nav-container">
             <a href="index.html" class="logo">TF<span>Servis</span></a>
             <ul class="nav-links" id="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html" class="active">Services & Parts</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="aboutus.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Početna</a></li>
+                <li><a href="services.html" class="active" data-i18n="nav.services">Usluge i Dijelovi</a></li>
+                <li><a href="products.html" data-i18n="nav.products">Proizvodi</a></li>
+                <li><a href="aboutus.html" data-i18n="nav.about">O Nama</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
             </ul>
+            <div class="lang-switcher-container"></div>
             <div class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -37,8 +38,8 @@
     <!-- Page Header -->
     <header class="page-header header-service">
         <div class="container">
-            <h1 class="animate-on-scroll fade-up">Service, Parts & Supplies</h1>
-            <p class="animate-on-scroll fade-up delay-1">Comprehensive maintenance and premium components to keep your laundry operations running flawlessly.</p>
+            <h1 class="animate-on-scroll fade-up" data-i18n="servicePage.title">Servis, Dijelovi i Potrepštine</h1>
+            <p class="animate-on-scroll fade-up delay-1" data-i18n="servicePage.desc">Sveobuhvatno održavanje i vrhunske komponente za besprijekoran rad vašeg vešeraja.</p>
         </div>
     </header>
 
@@ -46,15 +47,15 @@
     <section class="section-padding">
         <div class="container">
             <div class="service-intro animate-on-scroll fade-up">
-                <h2 class="title">Expert Maintenance & Repair</h2>
-                <p>Downtime costs you money. Our certified technicians specialize in fast, reliable repairs and preventative maintenance for all industrial laundry equipment, with specialized expertise in IPSO machines. We ensure your machines operate at peak efficiency.</p>
+                <h2 class="title" data-i18n="servicePage.maintTitle">Stručno Održavanje i Popravke</h2>
+                <p data-i18n="servicePage.maintDesc">Zastoji vas koštaju. Naši certificirani tehničari specijalizovani su za brze i pouzdane popravke i preventivno održavanje industrijske opreme za vešeraje, sa posebnim fokusom na IPSO mašine. Osiguravamo da vaše mašine rade sa maksimalnom efikasnošću.</p>
             </div>
 
             <!-- CTA Banner -->
             <div class="cta-banner animate-on-scroll fade-up delay-1">
-                <h3>Experiencing an issue with your equipment?</h3>
-                <p style="color: var(--text-muted); margin-bottom: 2rem;">Our rapid response team is ready to diagnose and fix the problem.</p>
-                <a href="contact.html" class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 3rem;">Need a Service</a>
+                <h3 data-i18n="servicePage.ctaTitle">Imate problem sa vašom opremom?</h3>
+                <p style="color: var(--text-muted); margin-bottom: 2rem;" data-i18n="servicePage.ctaDesc">Naš tim za brzi odgovor spreman je dijagnosticirati i otkloniti problem.</p>
+                <a href="contact.html" class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 3rem;" data-i18n="servicePage.ctaBtn">Trebam Servis</a>
             </div>
         </div>
     </section>
@@ -63,9 +64,9 @@
     <section class="parts-supplies-section section-padding">
         <div class="container">
             <div class="section-header text-center animate-on-scroll fade-up">
-                <h2 class="subtitle">OEM Components</h2>
-                <h3 class="title">Genuine Spare Parts</h3>
-                <p class="description">We stock and source thousands of original replacement parts to guarantee the longevity and safety of your machines.</p>
+                <h2 class="subtitle" data-i18n="servicePage.oemSub">OEM Komponente</h2>
+                <h3 class="title" data-i18n="servicePage.oemTitle">Originalni Rezervni Dijelovi</h3>
+                <p class="description" data-i18n="servicePage.oemDesc">Na skladištu imamo i nabavljamo hiljade originalnih rezervnih dijelova koji garantuju dugotrajnost i sigurnost vaših mašina.</p>
             </div>
 
             <div class="item-grid">
@@ -73,27 +74,27 @@
                     <div class="item-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
                     </div>
-                    <h4>Motors & Drives</h4>
-                    <p>High-performance motors and frequency inverters for reliable operation.</p>
+                    <h4 data-i18n="servicePage.motors">Motori i Pogoni</h4>
+                    <p data-i18n="servicePage.motorsDesc">Motori visokih performansi i frekventni pretvarači za pouzdan rad.</p>
                 </div>
                 <div class="item-card animate-on-scroll fade-up delay-1">
                     <div class="item-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                     </div>
-                    <h4>Valves & Pumps</h4>
-                    <p>Durable water and steam valves, along with high-capacity drain pumps.</p>
+                    <h4 data-i18n="servicePage.valves">Ventili i Pumpe</h4>
+                    <p data-i18n="servicePage.valvesDesc">Izdržljivi ventili za vodu i paru, zajedno sa odvodnim pumpama visokog kapaciteta.</p>
                 </div>
                 <div class="item-card animate-on-scroll fade-up delay-2">
                     <div class="item-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
                     </div>
-                    <h4>Belts & Bearings</h4>
-                    <p>Heavy-duty drive belts and premium bearings engineered for heavy loads.</p>
+                    <h4 data-i18n="servicePage.belts">Remenje i Ležajevi</h4>
+                    <p data-i18n="servicePage.beltsDesc">Pogonsko remenje za teške uslove i vrhunski ležajevi konstruisani za velika opterećenja.</p>
                 </div>
             </div>
             
             <div class="text-center mt-4" style="margin-top: 3rem;">
-                <a href="contact.html" class="btn btn-secondary">Inquire About Parts</a>
+                <a href="contact.html" class="btn btn-secondary" data-i18n="servicePage.inquireParts">Upit za Dijelove</a>
             </div>
         </div>
     </section>
@@ -102,9 +103,9 @@
     <section class="section-padding">
         <div class="container">
             <div class="section-header text-center animate-on-scroll fade-up">
-                <h2 class="subtitle">Daily Operations</h2>
-                <h3 class="title">Laundry Supplies</h3>
-                <p class="description">Everything you need for perfect washing results, day in and day out.</p>
+                <h2 class="subtitle" data-i18n="servicePage.opsSub">Svakodnevni Rad</h2>
+                <h3 class="title" data-i18n="servicePage.opsTitle">Potrepštine za Vešeraj</h3>
+                <p class="description" data-i18n="servicePage.opsDesc">Sve što vam je potrebno za savršene rezultate pranja, iz dana u dan.</p>
             </div>
 
             <div class="item-grid">
@@ -112,27 +113,27 @@
                     <div class="item-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
                     </div>
-                    <h4>Industrial Detergents</h4>
-                    <p>High-concentration formulas designed to remove tough commercial stains.</p>
+                    <h4 data-i18n="servicePage.detergents">Industrijski Deterdženti</h4>
+                    <p data-i18n="servicePage.detergentsDesc">Formule visoke koncentracije dizajnirane za uklanjanje najtvrdokornijih mrlja.</p>
                 </div>
                 <div class="item-card animate-on-scroll fade-up delay-1">
                     <div class="item-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="6.5"></line></svg>
                     </div>
-                    <h4>Softeners & Conditioners</h4>
-                    <p>Premium fabric care to ensure a soft feel and fresh scent for all linens.</p>
+                    <h4 data-i18n="servicePage.softeners">Omekšivači i Kondicioneri</h4>
+                    <p data-i18n="servicePage.softenersDesc">Vrhunska njega tkanina koja osigurava mekoću i svjež miris posteljine i veša.</p>
                 </div>
                 <div class="item-card animate-on-scroll fade-up delay-2">
                     <div class="item-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
                     </div>
-                    <h4>Specialty Chemicals</h4>
-                    <p>Bleaches, starches, and destainers for specialized textile processing.</p>
+                    <h4 data-i18n="servicePage.chemicals">Specijalne Hemikalije</h4>
+                    <p data-i18n="servicePage.chemicalsDesc">Izbjeljivači, štirka i odstranjivači mrlja za specijaliziranu obradu tekstila.</p>
                 </div>
             </div>
 
             <div class="text-center mt-4" style="margin-top: 3rem;">
-                <a href="contact.html" class="btn btn-secondary">Order Supplies</a>
+                <a href="contact.html" class="btn btn-secondary" data-i18n="servicePage.orderSupplies">Naručite Potrepštine</a>
             </div>
         </div>
     </section>
@@ -143,25 +144,26 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">TF<span>Servis</span></a>
-                    <p>Premium industrial laundry solutions. Sales, service, and parts.</p>
+                    <p data-i18n="footer.tagline">Vrhunska rješenja za industrijske vešeraje. Prodaja, servis i rezervni dijelovi.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4 data-i18n="footer.quickLinks">Brzi Linkovi</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services & Parts</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html" data-i18n="nav.home">Početna</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Usluge i Dijelovi</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">Proizvodi</a></li>
+                        <li><a href="aboutus.html" data-i18n="nav.about">O Nama</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 TF Servis. All rights reserved.</p>
+                <p data-i18n="footer.rights">&copy; 2026 TF Servis. Sva prava zadržana.</p>
             </div>
         </div>
     </footer>
 
+    <script src="script/i18n.js"></script>
     <script src="script/main.js"></script>
 </body>
 </html>
