@@ -103,12 +103,12 @@ const productsData = [
         id: 10,
         name: "IPSO ACL800",
         category: "dryer_rollers",
-        image: "images/products/ACL800.bmp",
-        shortDescription_bs: "Komercijalni valjak za peglanje sa grijanim koritom.",
+        image: "images/products/ACL800.png",
+        shortDescription_bs: "Komercijalni industrijski valjak za peglanje sa grijanim koritom.",
         shortDescription_en: "Chest-heated commercial flatwork ironer.",
-        fullDescription_bs: "Valjak ACL800 napravljen je za velike hotelske i komercijalne vešeraje. Osigurava ravnomjernu raspodjelu toplote za savršeno i brzo peglanje posteljine.",
-        fullDescription_en: "The ACL800 flatwork ironer is built for massive hotel and commercial laundry throughput. Its heavy-duty chest provides unmatched heat distribution for a perfect, glossy, high-speed finish on sheets and tablecloths.",
-        pdfLink: "docs/DL_AI20-1039_SpecSheet_ChestHeatedIroner-ACL800-TwoRolls_en-WW.pdf"
+        fullDescription_bs: "IPSO ACL800 je vrhunski komercijalni koritasti valjak dizajniran za visoku produktivnost u hotelskim i komercijalnim vešerajima. Poseduje robusno grijano korito visoke termalne stabilnosti, hidraulički pritisak valjka, i napredne mikrokontrolerske funkcije za besprijekoran sjaj posteljine i stolnjaka pri velikim brzinama obrade.",
+        fullDescription_en: "The IPSO ACL800 flatwork ironer is built for high-volume hotel and commercial laundry throughput. Its heavy-duty chest provides unmatched heat distribution, hydraulic roll pressure, and advanced microprocessor controls for a perfect, glossy, high-speed finish on linens and tablecloths.",
+        pdfLink: "docs/ACL800.pdf"
     },
     {
         id: 11,
@@ -153,6 +153,17 @@ const productsData = [
         fullDescription_bs: "IPSO ACL80K (One Roll) je vrhunski industrijski valjak za peglanje sa jednim valjkom i grijanim koritom visoke efikasnosti. Dizajniran je za visoku produktivnost i besprijekoran sjaj posteljine u hotelima, restoranima i komercijalnim vešerajima. Odlikuje ga rigidna konstrukcija korita, hidraulički podizni sistem, te napredna mikrokontrolerska regulacija brzine i temperature.",
         fullDescription_en: "The IPSO ACL80K (One Roll) is a high-performance single-roll chest-heated flatwork ironer engineered for commercial and industrial laundries. Featuring a rigid chest design, hydraulic roll lifting mechanism, and microprocessor speed and temperature controls for superior linen finishing.",
         pdfLink: "docs/ACL80K-OneRoll.pdf"
+    },
+    {
+        id: 18,
+        name: "IPSO ACL600-800",
+        category: "dryer_rollers",
+        image: "images/products/ACL600-800.png",
+        shortDescription_bs: "Industrijski koritasti valjak za peglanje velikog kapaciteta (ø 600/800 mm).",
+        shortDescription_en: "Heavy-duty chest-heated flatwork ironer (ø 600/800 mm).",
+        fullDescription_bs: "IPSO ACL600-800 serija koritastih valjaka za peglanje predstavlja vrhunac kapaciteta i brzine obrade posteljine za velike hotelske i industrijske vešeraje. Sa prečnikom valjka od 600 ili 800 mm i varijabilnom brzinom peglanja, pruža maksimalan prenos toplote, izuzetnu efikasnost sušenja i peglanja, te hidraulični pritisak korita za visokokvalitetnu završnu obradu ravnog veša.",
+        fullDescription_en: "The IPSO ACL600-800 series chest-heated flatwork ironers offer massive throughput and speed for large hotel and commercial laundries. Featuring a large roll diameter (600 or 800 mm), rigid lap-welded chest construction, hydraulic pressure system, and variable frequency speed control for superior flatwork finishing.",
+        pdfLink: "docs/ACL600-800.pdf"
     },
     {
         id: 13,
