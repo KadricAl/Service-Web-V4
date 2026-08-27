@@ -46,7 +46,7 @@ const translations = {
         "contact.desc": "Kontaktirajte TF Servis danas za upite o prodaji, servisu ili rezervnim dijelovima.",
         "contact.phoneLabel": "Telefon: +387 61 159 888",
         "contact.emailLabel": "E-mail: tfservis.newpage@gmail.com",
-        "contact.addressLabel": "Adresa: Sarajevo, Bosna i Hercegovina",
+        "contact.addressLabel": "Adresa: Radnička bb, 71000 Sarajevo, Bosna i Hercegovina",
 
         // Form Fields
         "form.namePlaceholder": "Vaše Ime",
@@ -173,7 +173,7 @@ const translations = {
         "contact.desc": "Contact TF Servis today for sales inquiries, service requests, or spare parts.",
         "contact.phoneLabel": "Phone: +387 61 159 888",
         "contact.emailLabel": "Email: tfservis.newpage@gmail.com",
-        "contact.addressLabel": "Address: Sarajevo, Bosnia and Herzegovina",
+        "contact.addressLabel": "Address: Radnička bb, 71000 Sarajevo, Bosnia and Herzegovina",
 
         // Form Fields
         "form.namePlaceholder": "Your Name",
