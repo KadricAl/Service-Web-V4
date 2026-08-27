@@ -44,8 +44,8 @@ const translations = {
         "contact.subtitle": "Stupite u Kontakt",
         "contact.title": "Spremni za Unapređenje?",
         "contact.desc": "Kontaktirajte TF Servis danas za upite o prodaji, servisu ili rezervnim dijelovima.",
-        "contact.phoneLabel": "Telefon: +387 61 123 456",
-        "contact.emailLabel": "E-mail: info@tfservis.ba",
+        "contact.phoneLabel": "Telefon: +387 61 159 888",
+        "contact.emailLabel": "E-mail: tfservis.newpage@gmail.com",
         "contact.addressLabel": "Adresa: Sarajevo, Bosna i Hercegovina",
 
         // Form Fields
@@ -171,8 +171,8 @@ const translations = {
         "contact.subtitle": "Get In Touch",
         "contact.title": "Ready to Upgrade?",
         "contact.desc": "Contact TF Servis today for sales inquiries, service requests, or spare parts.",
-        "contact.phoneLabel": "Phone: +387 61 123 456",
-        "contact.emailLabel": "Email: info@tfservis.ba",
+        "contact.phoneLabel": "Phone: +387 61 159 888",
+        "contact.emailLabel": "Email: tfservis.newpage@gmail.com",
         "contact.addressLabel": "Address: Sarajevo, Bosnia and Herzegovina",
 
         // Form Fields
