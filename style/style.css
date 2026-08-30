@@ -586,17 +586,17 @@ input:focus, select:focus, textarea:focus {
 
 /* === Common Page Header === */
 .page-header {
-    padding: 150px 0 80px;
+    padding: 130px 0 50px;
     text-align: center;
 }
 .page-header h1 {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
     margin-bottom: 1rem;
     color: var(--text-main);
 }
 .page-header p {
     color: var(--text-muted);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -737,31 +737,79 @@ input:focus, select:focus, textarea:focus {
 }
 
 /* === About Us Page === */
-.story-section {
+.about-grid, .story-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 3.5rem;
     align-items: center;
 }
-.story-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+.about-text h2, .story-content h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
 }
-.story-content p {
+.about-text p, .story-content p {
     color: var(--text-muted);
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
 }
-.story-image {
-    border-radius: 12px;
+.about-image, .story-image {
+    border-radius: 16px;
     overflow: hidden;
     border: 1px solid var(--glass-border);
     position: relative;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    max-height: 380px;
 }
-.story-image img {
+.about-image img, .story-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+.value-card {
+    padding: 2.25rem 2rem;
+    text-align: center;
+    border-radius: 16px;
+    transition: var(--transition-smooth);
+}
+.value-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-primary);
+}
+.value-icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 1.25rem;
+    background: rgba(0, 210, 255, 0.1);
+    border: 1px solid rgba(0, 210, 255, 0.25);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+}
+.value-icon svg {
+    width: 28px;
+    height: 28px;
+}
+.value-card h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text-main);
+}
+.value-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 .achievements-section {
     background-color: var(--bg-surface);
@@ -849,8 +897,12 @@ input:focus, select:focus, textarea:focus {
 }
 
 @media (max-width: 992px) {
-    .contact-page-wrapper, .story-section {
+    .contact-page-wrapper, .story-section, .about-grid {
         grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    .about-image, .story-image {
+        max-height: 300px;
     }
     .contact-page-wrapper {
         padding: 1.5rem;
