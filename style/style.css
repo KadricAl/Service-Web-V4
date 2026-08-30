@@ -180,19 +180,19 @@ h1, h2, h3, h4 {
 }
 
 .logo-img {
-    height: 42px;
+    height: 60px;
     width: auto;
-    max-width: 180px;
+    max-width: 260px;
     object-fit: contain;
     transition: height 0.3s ease, transform 0.3s ease;
 }
 
 .navbar.scrolled .logo-img {
-    height: 36px;
+    height: 50px;
 }
 
 .footer-brand .logo-img {
-    height: 48px;
+    height: 65px;
     margin-bottom: 0.75rem;
 }
 
