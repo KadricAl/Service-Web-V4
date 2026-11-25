@@ -4,23 +4,34 @@ const productsData = [
         id: 1,
         name: "IPSO BC20-60",
         category: "washing_machines",
-        image: "images/products/BC20-60.bmp",
+        image: "images/products/BC20-60.png",
         shortDescription_bs: "Industrijska veš mašina visokog kapaciteta (20-60kg).",
         shortDescription_en: "Heavy-duty commercial washer-extractor (20-60kg).",
         fullDescription_bs: "IPSO BC20-60 posjeduje napredni EVOLIS ekran na dodir koji nudi prilagođene programe pranja i vrhunsku efikasnost. Izrađena od izdržljivog nehrđajućeg čelika za najzahtjevnije komercijalne i industrijske uslove.",
         fullDescription_en: "The IPSO BC20-60 features the cutting-edge EVOLIS touch control, offering customized wash programs and superior efficiency. Constructed with durable stainless steel to withstand high-capacity commercial and industrial use.",
-        pdfLink: "docs/DL_AI22-1058_SpecSheet_BC20-60_EVOLIS_en-AP.pdf"
+        pdfLink: "docs/BC20-60.pdf"
     },
     {
         id: 2,
+        name: "IPSO BS30-50",
+        category: "stacked_machines",
+        image: "images/products/BS30-50_AriesMicro.png",
+        shortDescription_bs: "Kombinovana industrijska veš mašina i sušilica (stack).",
+        shortDescription_en: "Heavy-duty commercial stacked washer-extractor & tumble dryer.",
+        fullDescription_bs: "IPSO BS30-50 predstavlja vrhunsko rješenje koje štedi prostor kombinovanjem snažne veš mašine sa 200 G-sila centrifugom i komercijalne sušilice u jednom vertikalnom kućištu. Opremljena naprednim Aries Micro kontrolerom sa 11 programa pranja i 5 programa sušenja, redizajniranom samoispirajućom posudom za deterdžent, te brzim servisnim pristupom ključnim komponentama za maksimalnu produktivnost vešeraja.",
+        fullDescription_en: "The IPSO BS30-50 is a premier space-saving stack unit integrating a 200 G-force washer-extractor and a high-efficiency tumble dryer in a single footprint. Features the intuitive Aries Micro control with 11 wash cycles and 5 drying cycles, an enhanced self-cleaning soap dispenser, and quick front-access maintenance design to maximize laundry productivity.",
+        pdfLink: "docs/BS30-50.pdf"
+    },
+    {
+        id: 19,
         name: "IPSO BSG30-50",
-        category: "washing_machines",
-        image: "images/products/BSG30-50.bmp",
-        shortDescription_bs: "Industrijska veš mašina sa Evolis interfejsom.",
-        shortDescription_en: "Industrial washer-extractor with Evolis interface.",
-        fullDescription_bs: "Dizajnirana za vrhunsku produktivnost, BSG30-50 veš mašina kombinuje snažnu centrifugu, pametnu kontrolu ciklusa i robusnu izdržljivost za vešeraje sa velikim obimom posla.",
-        fullDescription_en: "Designed for premium productivity, the BSG30-50 washer-extractor combines powerful spin speeds, intelligent cycle control, and rugged durability for high-throughput laundry environments.",
-        pdfLink: "docs/DL_AI22-1059_SpecSheet_BSG30-50_EVOLIS_en-AP.pdf"
+        category: "stacked_machines",
+        image: "images/products/BSG30-50.png",
+        shortDescription_bs: "Kombinovana industrijska veš mašina i sušilica sa EVOLIS ekranom na dodir.",
+        shortDescription_en: "Commercial stacked washer-extractor & tumble dryer with EVOLIS touch screen.",
+        fullDescription_bs: "IPSO BSG30-50 je vrhunska kombinovana jedinica (stack) koja udvostručuje kapacitet pranja i sušenja na površini jedne mašine. Opremljena je naprednim 7-inčnim EVOLIS ekranom na dodir, mogućnostima povezivanja u oblak (IPSO Connect), visokom centrifugom od 200 G-sila, te robusnom konstrukcijom od nehrđajućeg čelika za maksimalnu efikasnost i jednostavnost upravljanja.",
+        fullDescription_en: "The IPSO BSG30-50 is a state-of-the-art stacked washer-extractor and tumble dryer that doubles your laundry throughput in a single footprint. Equipped with a 7-inch EVOLIS touchscreen display, IPSO Connect cloud connectivity, high 200 G-force extraction speed, and heavy-duty stainless steel build for exceptional productivity and user-friendly operation.",
+        pdfLink: "docs/BSG30-50.pdf"
     },
     {
         id: 3,
@@ -168,7 +179,7 @@ const productsData = [
     {
         id: 13,
         name: "IPSO CW10 & CD10 Stack",
-        category: "equipment",
+        category: "stacked_machines",
         image: null,
         shortDescription_bs: "Kombinovani stub veš mašine i sušilice.",
         shortDescription_en: "Stacked commercial washer and dryer setup.",
@@ -206,6 +217,7 @@ const getCategoryLabel = (cat) => {
     const categoryMap = {
         washing_machines: { bs: 'Mašine za Pranje', en: 'Washing Machines' },
         dryers: { bs: 'Sušilice', en: 'Dryers' },
+        stacked_machines: { bs: 'Kombinovane Mašine', en: 'Stacked Washer-Dryers' },
         dryer_rollers: { bs: 'Valjci za Glačanje', en: 'Dryer Rollers' },
         equipment: { bs: 'Dodatna Oprema', en: 'Accessories' }
     };
